@@ -15,7 +15,7 @@ except ValueError:
 	sys.exit("Command-line argument is not a number")
 else:
 	if bitcoin_number < 1:
-		sys.exit("The value has to be bigger than 0")
+		sys.exit("Command-line argument has to be a positive integer")
 
 
 try:
