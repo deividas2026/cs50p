@@ -7,7 +7,7 @@ if argc < 3:
 elif argc > 3:
     sys.exit("Too many command-line arguments") 
 elif not sys.argv[1].endswith(".csv"):
-    sys.exit("Both input and output files have to have .csv extension")
+    sys.exit("Input file has to have .csv extension")
 
 input_filename = sys.argv[1]
 output_filename = sys.argv[2]
